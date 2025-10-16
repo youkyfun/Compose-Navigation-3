@@ -1,19 +1,19 @@
-package com.youkydesign.mira
+package com.youkydesign.nav3
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import com.youkydesign.mira.ui.navigation.MiraNavigation
-import com.youkydesign.mira.ui.theme.MiraAppTheme
+import com.youkydesign.nav3.ui.navigation.AppNavigation
+import com.youkydesign.nav3.ui.theme.AppTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            MiraAppTheme {
-                MiraNavigation()
+            AppTheme {
+                AppNavigation()
             }
         }
     }

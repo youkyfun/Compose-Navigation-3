@@ -1,4 +1,4 @@
-package com.youkydesign.mira.ui.theme
+package com.youkydesign.nav3.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

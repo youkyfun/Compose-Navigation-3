@@ -6,13 +6,13 @@ plugins {
 }
 
 android {
-    namespace = "com.youkydesign.mira"
+    namespace = "com.youkydesign.nav3"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "com.youkydesign.mira"
+        applicationId = "com.youkydesign.nav3"
         minSdk = 24
         targetSdk = 36
         versionCode = 1

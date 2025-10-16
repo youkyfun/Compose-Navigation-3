@@ -1,4 +1,4 @@
-package com.youkydesign.mira.ui.screens.scanner
+package com.youkydesign.nav3.ui.screens.feature_1
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -12,7 +12,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun ScanResultScreen(modifier: Modifier = Modifier, onRetry: () -> Unit) {
+fun FirstScreen(modifier: Modifier = Modifier, onForward: () -> Unit) {
     Scaffold { paddingValues ->
         Box(
             modifier = modifier
@@ -21,9 +21,9 @@ fun ScanResultScreen(modifier: Modifier = Modifier, onRetry: () -> Unit) {
                 .padding(24.dp)
         ) {
             Column {
-                Text("Scan Result Screen")
-                Button(onClick = onRetry) {
-                    Text("Retry scan")
+                Text("First Screen")
+                Button(onClick = onForward) {
+                    Text("Go to 2nd Screen")
                 }
             }
         }

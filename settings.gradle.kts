@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Mira App"
+rootProject.name = "Compose Navigation 3"
 include(":app")
